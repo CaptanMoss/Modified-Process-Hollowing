@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Hooking">
+      <UniqueIdentifier>{5042c357-36cd-4827-8eee-b787c6097f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProcessHollowing">
+      <UniqueIdentifier>{bd4ccbac-3062-493c-bf3e-f20ba9a55734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooking">
+      <UniqueIdentifier>{7877b099-1d72-46dc-ab85-9c003dbc813e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProcessHollowing">
+      <UniqueIdentifier>{3836d0d0-9c3a-4ed9-a420-1b1f2cfb39c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{684feb67-c3ed-4c03-bfaa-5a442a262a36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\hook.c">
+      <Filter>Source Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\ldr.cpp">
+      <Filter>Source Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\CreateProcess.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\initialize_wmi.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\PE.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\ph_function_defenition.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\ProcessHollowing.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHollowing\get_thread_id.cpp">
+      <Filter>Source Files\ProcessHollowing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooking\hook.h">
+      <Filter>Header Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking\ldr.h">
+      <Filter>Header Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHollowing\function_definitions.h">
+      <Filter>Header Files\ProcessHollowing</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHollowing\initialize_wmi.h">
+      <Filter>Header Files\ProcessHollowing</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHollowing\PE.h">
+      <Filter>Header Files\ProcessHollowing</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHollowing\ph_function_defenition.h">
+      <Filter>Header Files\ProcessHollowing</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
