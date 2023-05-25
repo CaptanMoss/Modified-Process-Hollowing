@@ -52,7 +52,7 @@ DWORD CreateProcess_API()
 
 	WCHAR wcCommandExecute[MAX_PATH + 1];
 
-	wcscpy_s(wcCommandExecute, (StringToWString("C:\\Windows\\SysWOW64\\svchost.exe")).c_str());//bunu sonra düzelt C:\\Users\\ereborlugimli\\Desktop\\LS\\main\\a.exe
+	wcscpy_s(wcCommandExecute, (StringToWString("C:\\Windows\\SysWOW64\\svchost.exe")).c_str());
 
 	VARIANT varCommand;
 	VariantInit(&varCommand);
