@@ -18,7 +18,7 @@ Modified Process Hollowing (MPH) is an enhanced version of Process Hollowing, wh
 
 ## Demo
 
-![](MPH.mp4)
+![](MPH.gif)
 
 
 ## Contributing
